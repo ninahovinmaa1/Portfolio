@@ -2,7 +2,7 @@
     padding-bottom: 2rem;
 
     &__bio-image {
-        height: 50vh;
+        height: 30vh;
         width: 100%;
         background: 
         linear-gradient(
@@ -78,7 +78,7 @@
 
 &__btn {
     opacity: 0;
-    column-rule: set-text-color($secondary-color);
+    color: set-text-color($secondary-color);
     @include transition-ease;
 
     &:hover {
