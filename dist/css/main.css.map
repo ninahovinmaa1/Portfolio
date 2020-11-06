@@ -6,7 +6,8 @@
         "../../scss/_config.scss",
         "../../scss/_home.scss",
         "../../scss/_menu.scss",
-        "../../scss/_about.scss"
+        "../../scss/_about.scss",
+        "../../scss/_projects.scss"
     ],
     "names": [],
     "file": "main.css"
