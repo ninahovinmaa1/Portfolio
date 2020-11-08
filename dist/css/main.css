@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: secondary-color;
+  color: #ff652f;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -413,6 +413,30 @@
 .contact .social-icons {
   position: initial;
   margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
+  .nav .menu-nav {
+    display: block;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: right;
+  }
+  .nav .menu-nav__item {
+    display: inline;
+    padding-right: 1.5rem;
+  }
+  .nav .menu-nav__link {
+    font-size: 1.5rem;
+  }
 }
 
 body {
