@@ -1,3 +1,5 @@
+/*--General: colors, resetting--*/
+
 $primary-color: #534B4C;
 $secondary-color: #2AD1AB;
 
@@ -7,6 +9,9 @@ $secondary-color: #2AD1AB;
     padding: 0;
 }
 
+/*--Mixins & functions--*/
+
+/*--Seen on nav-bar, hamburger-menu, hovering on texts and social icons throughout--*/
 @mixin transition-ease {
     transition: all 0.3s ease-in-out;
 }
@@ -19,6 +24,7 @@ $secondary-color: #2AD1AB;
     }
 }
 
+/*--mixins for responsive design--*/
 @mixin media-md {
     @media screen and (min-width: 768px) {
         @content;

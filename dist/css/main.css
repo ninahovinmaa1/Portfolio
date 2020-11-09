@@ -1,3 +1,4 @@
+/*--General: colors, resetting--*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,6 +6,11 @@
   padding: 0;
 }
 
+/*--Mixins & functions--*/
+/*--Seen on nav-bar, hamburger-menu, hovering on texts and social icons throughout--*/
+/*--mixins for responsive design--*/
+/*--Main->section--*/
+/*--layout, background styling--*/
 .home {
   height: 100%;
   padding-top: 40vh;
@@ -16,6 +22,7 @@
   background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-3.jpg") center top;
   background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-3.jpg") center top;
   background-size: cover;
+  /*--text stuff--*/
 }
 
 .home__name {
@@ -23,6 +30,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #FAF9F8;
+  /*--last name--*/
 }
 
 .home__name--last {
@@ -185,8 +193,11 @@
           transition-delay: 0.55s;
 }
 
+/*--Main->section--*/
+/*--layout, background styling, flex-container-stuff--*/
 .about {
   padding-bottom: 2rem;
+  /*--Bio size & text--*/
 }
 
 .about__bio-image {

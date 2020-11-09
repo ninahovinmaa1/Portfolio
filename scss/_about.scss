@@ -1,3 +1,7 @@
+/*--Main->section--*/
+
+/*--layout, background styling, flex-container-stuff--*/
+
 .about {
     padding-bottom: 2rem;
 
@@ -21,6 +25,8 @@
             margin-bottom: 2rem;
         }
     }
+
+    /*--Bio size & text--*/
     &__bio {
         width: 80%;
         text-align: center;
