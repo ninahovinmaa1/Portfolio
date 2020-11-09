@@ -26,7 +26,7 @@
         }
     }
 
-    /*--Bio size & text--*/
+    /*--Bio size & flex-items stuff--*/
     &__bio {
         width: 80%;
         text-align: center;
@@ -36,6 +36,7 @@
         }
     }
 
+    /*--Grid-container stuff for jobs--*/
     .jobs {
         width: 60vw;
         margin: 2rem auto 0 auto;
@@ -43,6 +44,7 @@
         grid-template-columns: 1fr;
         grid-gap: 2rem;
 
+        /*--Grid-items stuff for jobs--*/
         &__job {
             background: lighten($primary-color, 10%);
             padding: 0.5rem;
@@ -58,11 +60,13 @@
         }
     }
 
+    /*--social icons column layout left side--*/
     .social-icons {
         display: flex;
         flex-direction: column; 
     }
 
+    /*--footer column layout, right side--*/
     footer {
         transform: rotate(90deg)
         translate(-3rem, -5rem)

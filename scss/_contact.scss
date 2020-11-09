@@ -1,3 +1,7 @@
+/*--Main->section--*/
+
+/*--layout, background styling, font-sizes, flex&grid-container-stuff--*/
+
 .contact {
     height: 100%;
     padding-top: 40vh;
@@ -26,6 +30,7 @@
         font-size: 1.5rem;
     }
     
+    /*--special positioning of social icons layout right under text--*/
     .social-icons {
         position: initial;
         margin-top: 2rem;

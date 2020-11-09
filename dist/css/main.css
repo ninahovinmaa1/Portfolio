@@ -38,6 +38,8 @@
   font-weight: 700;
 }
 
+/*--General nav & hamburger menu for all pages--*/
+/*--hamburger--*/
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -100,6 +102,7 @@
           transform: rotate(-45deg) translate(3px, -7px);
 }
 
+/*--nav-bar--*/
 .nav {
   position: fixed;
   top: 0;
@@ -173,6 +176,7 @@
   color: #2AD1AB;
 }
 
+/*--transition for hamburger menu content roll down--*/
 .menu-nav__item:nth-child(1) {
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
@@ -193,11 +197,19 @@
           transition-delay: 0.55s;
 }
 
+.menu-nav__item:nth-child(5) {
+  -webkit-transition-delay: 0.65s;
+          transition-delay: 0.65s;
+}
+
 /*--Main->section--*/
 /*--layout, background styling, flex-container-stuff--*/
 .about {
   padding-bottom: 2rem;
-  /*--Bio size & text--*/
+  /*--Bio size & flex-items stuff--*/
+  /*--Grid-container stuff for jobs--*/
+  /*--social icons column layout left side--*/
+  /*--footer column layout, right side--*/
 }
 
 .about__bio-image {
@@ -242,6 +254,7 @@
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
+  /*--Grid-items stuff for jobs--*/
 }
 
 .about .jobs__job {
@@ -273,9 +286,11 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+/*--Main->section--*/
+/*--layout, background styling, font-sizes, flex&grid-container-stuff--*/
 .education {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 10vh;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,12 +331,14 @@
   margin-top: 2rem;
 }
 
+/*--Main->section--*/
+/*--layout, background styling, font-sizes, flex-container-stuff--*/
 .projects {
   padding-bottom: 2rem;
 }
 
 .projects__bio-image {
-  height: 30vh;
+  height: 15vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-4.jpg") center top;
   background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-4.jpg") center top;
@@ -431,6 +448,8 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+/*--Main->section--*/
+/*--layout, background styling, font-sizes, flex&grid-container-stuff--*/
 .contact {
   height: 100%;
   padding-top: 40vh;
@@ -448,6 +467,7 @@
   background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-2.jpg") center top;
   background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-2.jpg") center top;
   background-size: cover;
+  /*--special positioning of social icons layout right under text--*/
 }
 
 .contact h2 {
