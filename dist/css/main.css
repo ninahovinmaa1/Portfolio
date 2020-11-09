@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-3.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-3.jpg") center top;
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .home__name--last {
-  color: #ff652f;
+  color: #2AD1AB;
   font-weight: 700;
 }
 
@@ -121,7 +121,7 @@
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: #534B4C;
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #ff652f;
+  color: #2AD1AB;
 }
 
 .nav .menu-nav__link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #ff652f;
+  color: #2AD1AB;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -192,8 +192,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-6.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-6.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,9 +234,9 @@
 }
 
 .about .jobs__job {
-  background: #414141;
+  background: #6e6365;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #2AD1AB;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
@@ -269,8 +269,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-4.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-4.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -304,7 +304,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #2AD1AB;
   overflow: hidden;
   cursor: pointer;
 }
@@ -320,7 +320,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #2AD1AB;
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -391,8 +391,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-2.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-2.jpg") center top;
   background-size: cover;
 }
 
@@ -478,7 +478,7 @@
 }
 
 body {
-  background: #272727;
+  background: #534B4C;
   color: #fff;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -495,7 +495,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #2AD1AB;
 }
 
 header {
@@ -523,7 +523,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #2AD1AB;
 }
 
 footer {
