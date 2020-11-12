@@ -215,8 +215,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-6.jpg") center top;
-  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-6.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-3.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-3.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,8 +302,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-2.jpg") center top;
-  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-2.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.6))), url("../img/project-3.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.6)), url("../img/project-3.jpg") center top;
   background-size: cover;
 }
 
