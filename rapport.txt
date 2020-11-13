@@ -1,5 +1,6 @@
 Ni ska implementera ett visst antal tillgänglighetskrav. (https://webbriktlinjer.se/wcag/) Skriv in i rapporten vilka krav ni har valt.”
 
+Valda tillgänglighetskraven:
 1.1.1 Beskriv med text allt innehåll som inte är text
 1.3.1 Ange i kod vad sidans olika delar har för roll
 1.3.2 Presentera innehållet i en meningsfull ordning för alla

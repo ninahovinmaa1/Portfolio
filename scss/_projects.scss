@@ -89,12 +89,12 @@
         color: set-text-color(set-text-color($secondary-color));
     }
 }
-
+    /*--social icons column layout left side--*/
     .social-icons {
         display: flex;
         flex-direction: column; 
     }
-
+    /*--footer column layout, right side--*/
     footer {
         transform: rotate(90deg)
         translate(-3rem, -5rem)

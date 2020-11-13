@@ -1,3 +1,6 @@
+/*--responsive changes on different sized devices/screens. Default = mobile--*/
+
+/*--medium, tablets--*/
 @include media-md {
     .menu-btn {
         visibility: hidden;
@@ -47,6 +50,7 @@
     }
 }
 
+/*--large, desktop--*/
 @include media-lg {
     .projects {
         &__items {
@@ -59,6 +63,7 @@
     }
 }
 
+/*--extra large, wide desktop--*/
 @include media-xl {
 
     .projects {

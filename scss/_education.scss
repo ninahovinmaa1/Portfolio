@@ -22,6 +22,17 @@
     /*--text stuff--*/
     &__education {
         margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        p {
+            width: 80%;
+            font-size: 0.75rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
     }
 
     &__item {

@@ -1,5 +1,6 @@
 @import "config", "home", "menu", "about", "education", "projects", "contact" , "responsive";
 
+/*--general configurations for all files if nothing else specified. Layout, fonts, colors, links--*/
 body {
     background: $primary-color;
     color: set-text-color($primary-color);
