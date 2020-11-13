@@ -4,7 +4,6 @@ Ni ska implementera ett visst antal tillgänglighetskrav. (https://webbriktlinje
 1.3.1 Ange i kod vad sidans olika delar har för roll
 1.3.2 Presentera innehållet i en meningsfull ordning för alla
 1.4.10 Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
-1.4.1 Använd inte enbart färg för att förmedla information
 2.4.4 Skriv tydliga länkar
 
 I ditt repo ska det finnas en rapport.txt (jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår dessa begrepp.
@@ -16,11 +15,15 @@ Scrum är ett ramverk eller sätt (för teams) att arbeta för att kunna bedriva
     -events (sprint planning, daily scrum, sprint review, sprint retrospective), timeboxade
     -artifacts (product backlog, sprint backlog, increment, sprint)
 
+För och nackdelar
+
 
 Grafisk profil
 
 En grafisk profil är oftast en företagspecifik beskrivning av regler som beskriver användandet av tex valda färger, typsnitt, fonter, marginaler etc i dom synliga sammanhang. Detta påverkar
  i sin tur hur företagets webbsida, printed media etc ser ut. Tanken bakom en grafisk profil är att vara en mall för att harmonisera en enhetlig budskap av företagets brand.
+
+ För och nackdelar
 
 Tillgänglighet
 
@@ -29,4 +32,4 @@ Med tillgänglighet inom webbriktlinjer menas att information och tjänster ska 
 
 Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.
 
-
+För och nackdelar

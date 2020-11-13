@@ -1,15 +1,14 @@
 /*--Main->section--*/
 
-/*--layout, background styling, font-sizes, flex&grid-container-stuff--*/
+/*--layout, background styling, font-sizes--*/
 
 
 .education {
     height: 100%;
-    padding-top: 10vh;
+    padding-top: 30vh;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
     background: 
         linear-gradient(
             to right,
@@ -19,26 +18,25 @@
         url('../img/project-3.jpg') center top;
     background-size: cover;
 
-    h2 {
-        font-size: 3rem;
-        margin-bottom: 2rem;
+
+    /*--text stuff--*/
+    &__education {
+        margin-top: 0.5rem;
     }
 
-    h1 {
+    &__item {
         font-size: 2rem;
-        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid set-text-color($primary-color);
+
+        &--name {
+            font-weight: 500;
+            font-size: 3rem;
+            color: $secondary-color; 
+        }
     }
 
-    &__list {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-        font-size: 1.5rem;
-    }
     
-    .social-icons {
-        position: initial;
-        margin-top: 2rem;
-    }
 }
 

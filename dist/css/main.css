@@ -19,8 +19,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-3.jpg") center top;
-  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-3.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.5))), url("../img/project-3.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.5)), url("../img/project-3.jpg") center top;
   background-size: cover;
   /*--text stuff--*/
 }
@@ -167,7 +167,7 @@
   font-size: 2rem;
   text-transform: uppercase;
   padding: 2rem 0;
-  font-weight: 300;
+  font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -215,8 +215,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-3.jpg") center top;
-  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-3.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.5))), url("../img/project-3.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.5)), url("../img/project-3.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,48 +287,36 @@
 }
 
 /*--Main->section--*/
-/*--layout, background styling, font-sizes, flex&grid-container-stuff--*/
+/*--layout, background styling, font-sizes--*/
 .education {
   height: 100%;
-  padding-top: 10vh;
+  padding-top: 30vh;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.6))), url("../img/project-3.jpg") center top;
   background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.6)), url("../img/project-3.jpg") center top;
   background-size: cover;
+  /*--text stuff--*/
 }
 
-.education h2 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+.education__education {
+  margin-top: 0.5rem;
 }
 
-.education h1 {
+.education__item {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #FAF9F8;
 }
 
-.education__list {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  font-size: 1.5rem;
-}
-
-.education .social-icons {
-  position: initial;
-  margin-top: 2rem;
+.education__item--name {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #2AD1AB;
 }
 
 /*--Main->section--*/
@@ -340,8 +328,8 @@
 .projects__bio-image {
   height: 15vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-4.jpg") center top;
-  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-4.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.5))), url("../img/project-4.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.5)), url("../img/project-4.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,8 +452,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.3))), url("../img/project-2.jpg") center top;
-  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.3)), url("../img/project-2.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(83, 75, 76, 0.9)), to(rgba(83, 75, 76, 0.5))), url("../img/project-2.jpg") center top;
+  background: linear-gradient(to right, rgba(83, 75, 76, 0.9), rgba(83, 75, 76, 0.5)), url("../img/project-2.jpg") center top;
   background-size: cover;
   /*--special positioning of social icons layout right under text--*/
 }
