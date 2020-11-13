@@ -33,4 +33,12 @@ Med tillgänglighet inom webbriktlinjer menas att information och tjänster ska 
 
 Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.
 
-För och nackdelar
+    För och nackdelar
+
+    Miljontals människor har funktionshinder som påverkar hur dom använder webben. Tillgänglighetsstandarden hjälper att konstruera webbplatser och program så att de är tillräckligt flexibla att passa olika typer av användarbehov och -situationer. Tillgänglighet kan räknas ge fyra olika affärsmässiga fördelar (källa: https://www.w3.org/WAI/business-case/):
+        1)Det driver innovation för att lösa oförväntade problem
+        2)Tillgänglighet förstärker företagets brand genom inklusivitet och mångfald
+        3) Förlänger bredden på marknaden för företagets produkter 
+        4) Minimera juridisk risk
+    
+    Dock kan det anses resurskrävande att göra breda tillgänglighetsanpassningar om målgruppen/användargruppen anses att inte dra nytta av det i stor utsträckning. Är användaren av ett specifikt affärssystem begränsad att användas tex från en viss skärmstorlek, är det klokt att fundera på hur stora tillgänglighetsanpassningar för responsiv design ska vara.   
