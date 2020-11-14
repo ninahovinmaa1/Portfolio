@@ -11,12 +11,23 @@ I ditt repo ska det finnas en rapport.txt (jag kommer att kolla era repon genom 
 
 Scrum
 
-Scrum är ett ramverk eller sätt (för teams) att arbeta för att kunna bedriva agilt utveckling av tex software. Scrum metodiken innehåller tre olika beståndsdelar:
+Scrum är en populär form av agil projektledning, ett sätt (för teams) att arbeta för att kunna bedriva agilt utveckling av tex software. Scrum metodiken innehåller tre olika beståndsdelar:
     -roles (product owner, scrum master, development team)
     -events (sprint planning, daily scrum, sprint review, sprint retrospective), timeboxade
     -artifacts (product backlog, sprint backlog, increment, sprint)
 
-För och nackdelar
+    För och nackdelar
+
+    Scrums främsta fördelar ligger i iterativa cykler, inkrementellt leverans och nära kontakt med kunden. Denna
+    typ av metodik är väldigt populär och företag antar agila metoder för att bli mer konkurrenskraftiga och effektiva. 
+    Företag som utvecklar mjukvara måste snabbt kunna reagera på förändringar på marknaden. Dels
+    måste mjukvaruprojekt anpassas till ny teknik och ständigt uppdaterade krav från kunder. 
+    Andra företag förhåller sig mer skeptiskt till de påstådda fördelarna och ser även nackdelar med denna typ av metodik.
+    Det finns tre huvudområden inom nackdelar av scrum; tekniska problem, stora projekt och kommunikation. Agila metoder har ett starkt fokus på funktionalitet, kan det finnas risker i utvecklingsmiljön att drabbas av
+    teknisk skuld, det vill säga att icke-funktionella krav på en mjukvara som att städa i kod eller andra underhållsåtgärder förbises. 
+    Kritik mot Scrums och agila metoders lämplighet för större projekt framgår genom svårigheten att
+    hantera stora projekt som involverar många stakeholders och utvecklare. Tex olika geografiska platser och svårigheten att involvera underleverantörer kan anses som exemplar förknippad med nackdelen av stora projekt med scrum. 
+    Under kommunikation kan man konstatera att formell dokumentation av projekt kan anses vara svagare, även om detta kan vara en viktig del i stora ock komplexa projekt.  
 
 
 Grafisk profil
@@ -24,7 +35,11 @@ Grafisk profil
 En grafisk profil är oftast en företagspecifik beskrivning av regler som beskriver användandet av tex valda färger, typsnitt, fonter, marginaler etc i dom synliga sammanhang. Detta påverkar
  i sin tur hur företagets webbsida, printed media etc ser ut. Tanken bakom en grafisk profil är att vara en mall för att harmonisera en enhetlig budskap av företagets brand.
 
- För och nackdelar
+    För och nackdelar
+
+    En grafisk profil skapar identitet som tydliggör vem avsändaren är. Företag med en bra grafisk profil framställer sig själva som professionella och seriösa vilket ökar chansen att man syns bland den hårda konkurrens som finns.
+    Det underlättar företagets kontakter med omvärlden och gör att målgrupperna lär sig att känna igen företaget.
+    Fördelar med att ha och utgå från en grafisk profil överväger dom få nackdelar; Det kan anses vara resurskrävande att sammanställa en grafisk profil, samt begränsa artistiskt frihet när man utgår strikta regler om färg, form, typsnitt osv.
 
 Tillgänglighet
 
@@ -41,4 +56,5 @@ Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/sv
         3) Förlänger bredden på marknaden för företagets produkter 
         4) Minimera juridisk risk
     
-    Dock kan det anses resurskrävande att göra breda tillgänglighetsanpassningar om målgruppen/användargruppen anses att inte dra nytta av det i stor utsträckning. Är användaren av ett specifikt affärssystem begränsad att användas tex från en viss skärmstorlek, är det klokt att fundera på hur stora tillgänglighetsanpassningar för responsiv design ska vara.   
+    En nackdel kan vara att utförande av breda tillgänglighetsanpassningar är både tids- och resurskrävande. Det krävs analys och utbildning inom webbtillgänglighet. Inte minst tid att planera och implementera under utvecklingsfasen.
+
